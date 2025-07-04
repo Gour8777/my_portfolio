@@ -49,21 +49,21 @@ const About = () => {
             className={`space-y-6 scroll-animate-left ${contentVisible ? 'animate' : ''}`}
           >
             <div className="prose prose-lg text-gray-700 dark:text-gray-300">
-              <p className="text-lg leading-relaxed mb-6 transition-colors duration-200">
-                I'm a third-year Computer Engineering student at UC Berkeley, driven by a passion for 
+              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed transition-colors duration-200 text-justify">
+                I'm a third-year Computer Science student at BMSCE Bangalore, driven by a passion for 
                 creating technology that makes a meaningful impact. My journey in engineering began with 
                 curiosity about how things work, and has evolved into a deep commitment to solving 
                 complex problems through innovative solutions.
               </p>
               
-              <p className="text-lg leading-relaxed mb-6 transition-colors duration-200">
+              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed transition-colors duration-200 text-justify">
                 With experience in software development, machine learning, and sustainable technology, 
                 I'm always looking for opportunities to apply my skills to real-world challenges. 
                 I believe that the best engineers are those who combine technical expertise with 
                 empathy and creativity.
               </p>
               
-              <p className="text-lg leading-relaxed transition-colors duration-200">
+              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed transition-colors duration-200 text-justify">
                 When I'm not coding or studying, you'll find me playing cricket, participating in hackathons. I'm excited about the future of technology and eager 
                 to contribute to meaningful projects that create positive change.
               </p>
@@ -89,7 +89,7 @@ const About = () => {
                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-200">
                       {highlight.title}
                     </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed transition-colors duration-200">
+                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-md text-left">
                       {highlight.description}
                     </p>
                   </div>
