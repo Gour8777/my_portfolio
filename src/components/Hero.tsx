@@ -26,7 +26,7 @@ const Hero = () => {
               <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl transition-colors duration-200">
                 <img
                   src="/profile.jpg"
-                  alt="Alex Chen - Engineering Student"
+                  alt="Gourav Agarwal - Engineering Student"
                   className="w-full h-full object-cover"
                 />
               </div>
