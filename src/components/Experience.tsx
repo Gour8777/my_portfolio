@@ -12,7 +12,7 @@ const Experience = () => {
       title: 'Application Development Intern',
       company: 'KNPL Tech',
       location: 'HSR Layout, Bangalore, India',
-      period: 'April 2025 - May 2025',
+      period: 'April 2025 - June 2025',
       description: 'Developed a retail delivery management app using Kotlin and Firebase to streamline product deliveries. Integrated real-time location tracking to assist delivery personnel and improve operational efficiency.',
       achievements: [
         "Enabled real-time tracking within a 50m radius, enhancing delivery accuracy",
